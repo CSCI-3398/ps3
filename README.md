@@ -31,5 +31,8 @@ Add, commit, and push `get_formants.Praat` to your ps3 repository.
 
 ---
 
-### Due Monday, September 21, at 11:59pm Boston time: `get_basics.Praat` and `get_formants.Praat`, added, committed, and pushed to your repo.
+### Deliverables due Monday, September 21, at 11:59pm Boston time:
+
+* `get_basics.Praat` 
+* `get_formants.Praat`
 
