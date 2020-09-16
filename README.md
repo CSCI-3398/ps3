@@ -29,7 +29,7 @@ Add, commit, and push `get_basics.Praat` to your ps3 repository.
 
 Add, commit, and push `get_formants.Praat` to your ps3 repository.
 
-3. (Optional) Try out an audio processing Python library such as [parselmouth](https://parselmouth.readthedocs.io/en/stable/) (which is really a Python wrapper for Praat) or [surfboard](https://surfboard.readthedocs.io/en/latest/) (a standalone audio feature extraction library). I've provided two Jupyter notebooks demonstrating a bit of their functionality. You might find them useful for the hackathon!
+3. (Optional) Try out an audio processing Python library such as [parselmouth](https://parselmouth.readthedocs.io/en/stable/) (which is really a Python wrapper for Praat) or [surfboard](https://surfboard.readthedocs.io/en/latest/) (a standalone audio feature extraction library). I've provided two Jupyter notebooks demonstrating a bit of their functionality. Note that you'll of course need to install Jupyter and the relevant libraries first, but you might find this useful for the hackathon!
 
 ---
 
