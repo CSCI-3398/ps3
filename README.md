@@ -1,20 +1,29 @@
 # Problem Set 3: Extracting Speech Features
 
-For the hackathon in a few weeks, you will have to extract features from multiple sound files. This means that you will have to actually write using the Praat scripting language and not just paste the history so that you can:
+For the hackathon in a few weeks, you will have to automate the extraction od speech features from multiple sound files. This means that you will have to actually write using the Praat scripting language and not just paste the history in order to:
 
-•	loop through a directory of sound files
-•	carry out a bunch of actions on those files (e.g., like extract pitch, extracting shimmer, jitter, htn ratio, formant values for different segments) 
-•	save some of the output of those actions to variables
-•	print out those values to a file
+•	Loop through a directory of sound files and their associated TextGrids.
+•	Extract speech features from those files (e.g., pitch, duration, shimmer, jitter, htn ratio, formants).
+•	Print out those features to a file.
 
-1. Do a couple more examples like the one above, using the history to create a script.
+In the `scripts` directory, I've given you a starter script that extracts the mean, max, and min pitch for a  `.wav`. file. I've also include the script from PS2 that loops through all the files in directory, gets the F1 and F2 values for each 'i' segment, and writes this info out to a file. 
 
-2. Do the first few activities of the official Praat scripting tutorial here, and then investigate the particular topics of interest (working with variables, reading in and writing out):
+In the `data` directory, there are 462 `.wav` files and their associated `TextGrid` files with the identities of the phonemes and their time stamps. I encourage you to listen to these files so you have an idea of their content. They are uncompressed and sampled at 16KHz.
 
-http://www.fon.hum.uva.nl/praat/manual/Scripting.html
+Using the scripts provided, the [Praat scripting tutorial](http://www.fon.hum.uva.nl/praat/manual/Scripting.html), the history paste feature that you used last time, and any [sample](http://phonetics.linguistics.ucla.edu/facilities/acoustic/praat.html) [scripts](http://www.acsu.buffalo.edu/~cdicanio/scripts.html) you find on the web as a guide, carry out the following tasks.
 
-3. Spend  time  reading and trying out the code on this particular Praat website page:
+1. Write a script called `get_basics.Praat` that calculates the average duration, and mean, min, and max pitch of each wave file in the data directory. Write out the results to a text file in the following format, with one file per line and one space between each value. 
 
-http://www.fon.hum.uva.nl/praat/manual/Voice_6__Automating_voice_analysis_with_a_script.html
+```
+<filename> <duration> <mean-pitch> <max-pitch> <min-pitch>
+```  
+Add, commit, and push `get_basics.Praat` to your ps3 repository.
 
-4. Experiment with the following script that reads in all the .wav files in a directory and extracts their pitch tracks. Try to combine it with some of the other Praat scripts you've seen so far to extract other sorts of features.
+2. Write a script called `get_formants.Praat` that calculates the average duration of vowels and consonants in each wave file. Write out the results to a text file in the following format, with one file per line and one space between each value:
+
+```
+<filename> <mean-vowel-duration> <mean-consonant-duration>
+```
+
+Add, commit, and push `get_formants.Praat` to your ps3 repository.
+
