@@ -8,7 +8,7 @@ For the hackathon in a few weeks, you will have to automate the extraction of sp
 * Extract speech features from those files.
 *	Print out those features to a file.
 
-In the `scripts` directory, I've given you a starter script that extracts the mean pitch for a directory full of `.wav` files. I've also include the script from PS2 that loops through all the files in directory, gets the F1 and F2 values for each 'i' segment, and writes this info out to a file. 
+In the `scripts` directory, I've given you a starter script that extracts the mean pitch for a directory full of `.wav` files. I've also include the script from PS2 that gets the F1 and F2 values for each 'i' segment in a file, and writes this info out to the console. 
 
 In the `data` directory, there are 462 `.wav` files and their associated `.TextGrid` files that contain the identities of the phonemes and their time stamps. I encourage you to listen to these files so you have an idea of their content. They are uncompressed and sampled at 16KHz.
 
