@@ -2,9 +2,9 @@
 
 For the hackathon in a few weeks, you will have to automate the extraction od speech features from multiple sound files. This means that you will have to actually write using the Praat scripting language and not just paste the history in order to:
 
-•	Loop through a directory of sound files and their associated TextGrids.
-•	Extract speech features from those files (e.g., pitch, duration, shimmer, jitter, htn ratio, formants).
-•	Print out those features to a file.
+* Loop through a directory of sound files and their associated TextGrids.
+* Extract speech features from those files (e.g., pitch, duration, shimmer, jitter, htn ratio, formants).
+*	Print out those features to a file.
 
 In the `scripts` directory, I've given you a starter script that extracts the mean, max, and min pitch for a  `.wav`. file. I've also include the script from PS2 that loops through all the files in directory, gets the F1 and F2 values for each 'i' segment, and writes this info out to a file. 
 
