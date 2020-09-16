@@ -21,7 +21,7 @@ Using the scripts provided, the [Praat scripting tutorial](http://www.fon.hum.uv
 ```  
 Add, commit, and push `get_basics.Praat` to your ps3 repository.
 
-2. Write a script called `get_formants.Praat` that calculates the average duration of vowels and consonants in each wave file. Write out the results to a text file in the following format, with one file per line and one space between each value:
+2. Write a script called `get_formants.Praat` that calculates the average duration of vowels and consonants in each wave file. (Hint: this will require also looking at the `TextGrid` files, of course.) Write out the results to a text file in the following format, with one file per line and one space between each value:
 
 ```
 <filename> <mean-vowel-duration> <mean-consonant-duration>
