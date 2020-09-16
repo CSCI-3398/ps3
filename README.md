@@ -1,5 +1,7 @@
 # Problem Set 3: Extracting Speech Features
 
+### Due Monday, September 21, at 11:59pm Boston time.
+
 For the hackathon in a few weeks, you will have to automate the extraction od speech features from multiple sound files. This means that you will have to actually write using the Praat scripting language and not just paste the history in order to:
 
 * Loop through a directory of sound files and their associated TextGrids.
