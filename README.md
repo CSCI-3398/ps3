@@ -12,7 +12,7 @@ In the `scripts` directory, I've given you a starter script that extracts the me
 
 In the `data` directory, there are 462 `.wav` files and their associated `.TextGrid` files that contain the identities of the phonemes and their time stamps. I encourage you to listen to these files so you have an idea of their content. They are uncompressed and sampled at 16KHz.
 
-Using the scripts provided, the [Praat scripting tutorial](http://www.fon.hum.uva.nl/praat/manual/Scripting.html), the history paste feature that you used last time, and any [sample](http://phonetics.linguistics.ucla.edu/facilities/acoustic/praat.html) [scripts](http://www.acsu.buffalo.edu/~cdicanio/scripts.html) you find on the web as a guide, carry out the following tasks.
+Using the scripts provided, the [Praat scripting tutorial](http://www.fon.hum.uva.nl/praat/manual/Scripting.html), the history paste feature that you used last time, and [any](https://eleanorchodroff.com/tutorial/PraatScripting.pdf) [sample](http://phonetics.linguistics.ucla.edu/facilities/acoustic/praat.html) [scripts](http://www.acsu.buffalo.edu/~cdicanio/scripts.html) you find on the web as a guide, carry out the following tasks.
 
 1. Write a script called `get_basics.Praat` that calculates the average duration, and mean, min, and max pitch of each wave file in the data directory. Write out the results to a text file in the following format, with one file per line and one space between each value. 
 
