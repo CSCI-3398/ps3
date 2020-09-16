@@ -1,0 +1,165 @@
+            File type = "ooTextFile"
+            Object class = "TextGrid"
+            xmin = 0.0
+xmax = 4.05
+            tiers? <exists>
+            size = 1
+            item []:
+            item [1]:
+            class = "IntervalTier"
+            name = "phones"
+            xmin = 0.0
+xmax = 4.05
+intervals: size = 38
+intervals [1]:
+xmin = 0.0
+xmax = 0.351875
+text = "sil"
+intervals [2]:
+xmin = 0.351875
+xmax = 0.4598125
+text = "SH"
+intervals [3]:
+xmin = 0.4598125
+xmax = 0.5195625
+text = "IY"
+intervals [4]:
+xmin = 0.5195625
+xmax = 0.603125
+text = "HV"
+intervals [5]:
+xmin = 0.603125
+xmax = 0.744125
+text = "AE"
+intervals [6]:
+xmin = 0.744125
+xmax = 0.785
+text = "DCL"
+intervals [7]:
+xmin = 0.785
+xmax = 0.8433125
+text = "Y"
+intervals [8]:
+xmin = 0.8433125
+xmax = 0.9275
+text = "ER"
+intervals [9]:
+xmin = 0.9275
+xmax = 1.045
+text = "D"
+intervals [10]:
+xmin = 1.045
+xmax = 1.1658125
+text = "AA"
+intervals [11]:
+xmin = 1.1658125
+xmax = 1.2325
+text = "R"
+intervals [12]:
+xmin = 1.2325
+xmax = 1.29625
+text = "KCL"
+intervals [13]:
+xmin = 1.29625
+xmax = 1.476875
+text = "S"
+intervals [14]:
+xmin = 1.476875
+xmax = 1.6675
+text = "UX"
+intervals [15]:
+xmin = 1.6675
+xmax = 1.75
+text = "TCL"
+intervals [16]:
+xmin = 1.75
+xmax = 1.7910625
+text = "Q"
+intervals [17]:
+xmin = 1.7910625
+xmax = 1.845
+text = "IX"
+intervals [18]:
+xmin = 1.845
+xmax = 1.935
+text = "N"
+intervals [19]:
+xmin = 1.935
+xmax = 2.045625
+text = "G"
+intervals [20]:
+xmin = 2.045625
+xmax = 2.11225
+text = "R"
+intervals [21]:
+xmin = 2.11225
+xmax = 2.189375
+text = "IY"
+intervals [22]:
+xmin = 2.189375
+xmax = 2.305
+text = "S"
+intervals [23]:
+xmin = 2.305
+xmax = 2.3968125
+text = "IY"
+intervals [24]:
+xmin = 2.3968125
+xmax = 2.5449375
+text = "W"
+intervals [25]:
+xmin = 2.5449375
+xmax = 2.703125
+text = "AO"
+intervals [26]:
+xmin = 2.703125
+xmax = 2.809375
+text = "SH"
+intervals [27]:
+xmin = 2.809375
+xmax = 2.84525
+text = "EPI"
+intervals [28]:
+xmin = 2.84525
+xmax = 2.9485
+text = "W"
+intervals [29]:
+xmin = 2.9485
+xmax = 3.0325
+text = "AA"
+intervals [30]:
+xmin = 3.0325
+xmax = 3.0575
+text = "DX"
+intervals [31]:
+xmin = 3.0575
+xmax = 3.1375
+text = "AXR"
+intervals [32]:
+xmin = 3.1375
+xmax = 3.2218125
+text = "Q"
+intervals [33]:
+xmin = 3.2218125
+xmax = 3.4241875
+text = "AO"
+intervals [34]:
+xmin = 3.4241875
+xmax = 3.5051875
+text = "L"
+intervals [35]:
+xmin = 3.5051875
+xmax = 3.6090625
+text = "Y"
+intervals [36]:
+xmin = 3.6090625
+xmax = 3.7004375
+text = "IH"
+intervals [37]:
+xmin = 3.7004375
+xmax = 3.9025
+text = "AXR"
+intervals [38]:
+xmin = 3.9025
+xmax = 4.05
+text = "sil"
