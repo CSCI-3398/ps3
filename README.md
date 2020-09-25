@@ -21,13 +21,13 @@ Using the scripts provided, the [Praat scripting tutorial](http://www.fon.hum.uv
 ```  
 Add, commit, and push `get_basics.Praat` to your ps3 repository.
 
-2. Write a script called `get_formants.Praat` that calculates the average duration of vowels and consonants in each wave file. (Hint: this will require also looking at the `TextGrid` files, of course.) Write out the results to a text file in the following format, with one file per line and one space between each value:
+2. Write a script called `get_durations.Praat` that calculates the average duration of vowels and consonants in each wave file. (Hint: this will require also looking at the `TextGrid` files, of course.) Write out the results to a text file in the following format, with one file per line and one space between each value:
 
 ```
 <filename> <mean-vowel-duration> <mean-consonant-duration>
 ```
 
-Add, commit, and push `get_formants.Praat` to your ps3 repository.
+Add, commit, and push `get_durations.Praat` to your ps3 repository.
 
 3. Try out the Python library [parselmouth](https://parselmouth.readthedocs.io/en/stable/), which is more or less a Python wrapper for Praat. I've provided a Jupyter notebooks demonstrating a bit of its functionality. You might find this useful for the hackathon!
 
@@ -36,5 +36,5 @@ Add, commit, and push `get_formants.Praat` to your ps3 repository.
 ### Deliverables due Monday, September 21, at 11:59pm Boston time:
 
 * `get_basics.Praat` 
-* `get_formants.Praat`
+* `get_durations.Praat`
 
